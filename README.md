@@ -31,10 +31,10 @@ This repo uses the NSF grant data in xml as an example.
 In order to ask a question, run a command like:
 
 ```shell
-python qa.py "Who was the PI for NSF grant about contaminated water?"
+python qa.py "Who was the PI for the NSF grant about contaminated water?"
 ```
 
-You can switch out `Who was the PI for NSF grant about contaminated water?` for any question of your liking!
+You can switch out `Who was the PI for the NSF grant about contaminated water?` for any question of your liking!
 
 This exposes a chat interface for interacting with a Notion database.
 IMO, this is a more natural and convenient interface for getting information.
@@ -57,5 +57,5 @@ python ingest.py
 Boom! Now you're done, and you can ask it questions like:
 
 ```shell
-python qa.py "Who was the PI for NSF grant about contaminated water?"
+python qa.py "Who was the PI for the NSF grant about contaminated water?"
 ```
